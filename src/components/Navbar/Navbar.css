@@ -1,0 +1,78 @@
+/* Navbar */
+.custom-navbar{
+padding:15px 0;
+transition:all 0.35s ease;
+background:transparent;
+}
+
+.custom-navbar.scrolled{
+background:#ffffff;
+box-shadow:0 4px 20px rgba(0,0,0,0.08);
+padding:10px 0;
+}
+
+/* Brand layout */
+
+.brand{
+display:flex;
+align-items:center;
+gap:12px;
+text-decoration:none;
+margin-left: -30px;
+}
+
+
+/* Avatar Logo */
+
+.logo-avatar{
+width:40px;
+height:40px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+border-radius:10px;
+
+font-weight:700;
+color:white;
+
+background: linear-gradient(135deg, #6366f1, #3b82f6, #8b5cf6);
+
+transition:0.3s;
+}
+
+.logo-avatar:hover{
+transform:scale(1.1);
+}
+
+
+/* Brand Name */
+
+.brand-name{
+font-size:20px;
+font-weight:700;
+color:#111;
+}
+
+/* Nav Links */
+
+.nav-item{
+margin-left:20px;
+font-weight:600;
+color:black;
+position:relative;
+transition:0.3s;
+}
+
+.nav-item:hover{
+color:#2563eb;
+}
+
+
+/* Active link */
+
+.active-nav{
+color:#2563eb !important;
+font-weight:600;
+}

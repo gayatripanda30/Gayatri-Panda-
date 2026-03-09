@@ -1,0 +1,275 @@
+/* =========================
+   FOOTER MAIN
+========================= */
+.footer{
+background:rgba(248,250,252,0.95);
+backdrop-filter:blur(10px);
+padding:100px 0 40px;
+position:relative;
+box-shadow:0 -5px 30px rgba(0,0,0,0.09);
+}
+
+/* =========================
+   PROFILE SECTION
+========================= */
+.footer-profile{
+display:flex;
+align-items:center;
+gap:16px;
+margin-bottom:20px;
+margin-left: 40px;
+}
+
+.footer-avatar{
+width:50px;
+height:50px;
+border-radius:14px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:700;
+font-size:25px;
+color:white;
+background:linear-gradient(135deg,#6366f1,#3b82f6);
+transition:0.4s;
+}
+
+.footer-avatar:hover{
+transform:rotateY(15deg) scale(1.05);
+}
+
+
+/* =========================
+   NAME
+========================= */
+
+.footer-name{
+font-size:24px;
+font-weight:700;
+margin:0;
+}
+
+.footer-role{
+color:#2563eb;
+margin:0;
+font-weight:500;
+font-size:16px;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.footer-desc{
+color:#475569;
+max-width:370px;
+line-height:1.7;
+font-size:16px;
+margin-left: 30px;
+}
+
+
+/* =========================
+   STATUS
+========================= */
+.footer-status{
+color:#64748b;
+font-size:15px;
+margin-left: -100px;
+}
+/* =========================
+   TITLES
+========================= */
+
+.footer-title{
+font-weight:700;
+margin-bottom:24px;
+font-size:20px;
+}
+
+
+/* =========================
+   EXPLORE LINKS
+========================= */
+
+.footer-links{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.footer-links li{
+margin-bottom:14px;
+}
+
+.footer-links a{
+text-decoration:none;
+color:#475569;
+font-size:16px;
+transition:0.3s;
+position:relative;
+}
+
+.footer-links a:hover{
+color:#2563eb;
+padding-left:6px;
+}
+
+
+/* =========================
+   SOCIAL ICONS
+========================= */
+
+.footer-social{
+display:flex;
+gap:18px;
+margin-bottom:25px;
+margin-left: 90px;
+}
+
+.footer-social a{
+
+width:46px;
+height:46px;
+
+border-radius:50%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+border:1px solid #e2e8f0;
+
+font-size:20px;
+color:#475569;
+
+transition:all .35s;
+}
+
+.footer-social a:hover{
+
+background:linear-gradient(135deg,#6366f1,#3b82f6);
+color:white;
+
+border-color:#2563eb;
+
+transform:translateY(-6px) scale(1.08);
+
+box-shadow:0 8px 20px rgba(37,99,235,0.3);
+}
+
+
+
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.footer-contact p{
+
+display:flex;
+align-items:center;
+gap:10px;
+
+color:#475569;
+
+margin-bottom:14px;
+font-size:16px;
+}
+
+
+/* =========================
+   BOTTOM BAR
+========================= */
+
+.footer-bottom{
+
+border-top:1px solid #e2e8f0;
+
+margin-top:60px;
+padding-top:25px;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+flex-wrap:wrap;
+
+color:#64748b;
+font-size:15px;
+}
+
+
+/* =========================
+   BUILD SECTION
+========================= */
+
+.footer-build{
+display:flex;
+align-items:center;
+gap:20px;
+}
+
+
+/* =========================
+   SCROLL BUTTON
+========================= */
+
+.scroll-btn{
+
+width:46px;
+height:46px;
+
+border-radius:50%;
+border:none;
+
+background:#e2e8f0;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+cursor:pointer;
+
+transition:0.35s;
+}
+
+.scroll-btn:hover{
+
+background:linear-gradient(135deg,#6366f1,#3b82f6);
+color:white;
+
+transform:translateY(-5px) scale(1.1);
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width:992px){
+
+.footer{
+padding:80px 0 30px;
+}
+
+.footer-bottom{
+gap:15px;
+}
+
+}
+
+@media (max-width:768px){
+
+.footer-bottom{
+flex-direction:column;
+align-items:flex-start;
+}
+
+.footer-build{
+margin-top:10px;
+}
+
+}
