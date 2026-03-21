@@ -53,23 +53,55 @@ const About = () => {
             <h3 className="section-title text-center mb-4">Professional Journey</h3>
 
             <div className="timeline-item">
-              <div className="timeline-year">2025 - Present</div>
+              
               <div className="timeline-card">
+                
                 <h5>Web Developer Trainee</h5>
+                <div className="timeline-year">Aug 2025 - Present</div>
+                <h6 className="company-name">ze TaAi Labs pvt.ltd</h6>
                 <p>
-                  Built modern React interfaces, optimized UI performance,
-                  and integrated REST APIs.
-                </p>
+  • Built scalable and responsive UI components using React.js<br/>
+  • Designed reusable and maintainable component architecture<br/>
+  • Optimized performance for faster load times and smooth interactions<br/>
+  • Integrated RESTful APIs for dynamic and real-time data rendering<br/>
+  • Enhanced overall user experience with clean and intuitive design
+</p>
               </div>
             </div>
 
+<div className="timeline-item">
+  
+  <div className="timeline-card">
+    <h5>Frontend Developer</h5>
+    <div className="timeline-year">Dec 2025 - Mar 2026</div>
+    <h6 className="company-name">Springer Capital</h6>
+    <p>
+     <p>
+  • Built responsive and scalable web applications using Next.js and Tailwind CSS<br/>
+  • Implemented dynamic routing and server-side rendering (SSR) for better performance<br/>
+  • Designed reusable UI components for maintainability and scalability<br/>
+  • Enhanced user experience with modern, mobile-first design principles<br/>
+  • Collaborated with team members to deliver high-quality features on time
+</p>
+    </p>
+  </div>
+</div>
+
             <div className="timeline-item">
-              <div className="timeline-year"> Sep 2024 - Oct 2024</div>
+ 
               <div className="timeline-card">
+
                 <h5>Web Development Intern</h5>
+                               <div className="timeline-year"> Sep 2024 - Oct 2024</div>
+                <h6 className="company-name">OctaNet Pvt.Ltd</h6> 
                 <p>
-                  Developed UI components and improved frontend performance.
+                    •Contributed to the development of responsive UI components using modern web technologies.<br/>
+  •  Enhanced frontend performance and usability by optimizing layouts and improving user interactions. <br/>
+  •  Collaborated with team members to deliver high-quality features within deadlines.
                 </p>
+       
+       
+                
               </div>
             </div>
           </div>

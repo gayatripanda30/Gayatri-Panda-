@@ -77,39 +77,39 @@ const Header = () => {
           <Nav className="ms-auto">
 
             <Nav.Link
-              href="#home"
-              className={activeLink === "home" ? "nav-item active-nav" : "nav-item"}
-            >
-              Home
-            </Nav.Link>
+  href="#home"
+  className={`nav-item ${activeLink === "home" ? "active-nav" : ""}`}
+>
+  Home
+</Nav.Link>
 
-            <Nav.Link
-              href="#about"
-              className={activeLink === "about" ? "nav-item active-nav" : "nav-item"}
-            >
-              About
-            </Nav.Link>
+<Nav.Link
+  href="#about"
+  className={`nav-item ${activeLink === "about" ? "active-nav" : ""}`}
+>
+  About
+</Nav.Link>
 
-            <Nav.Link
-              href="#skills"
-              className={activeLink === "skills" ? "nav-item active-nav" : "nav-item"}
-            >
-              Skills
-            </Nav.Link>
+<Nav.Link
+  href="#skills"
+  className={`nav-item ${activeLink === "skills" ? "active-nav" : ""}`}
+>
+  Skills
+</Nav.Link>
 
-            <Nav.Link
-              href="#projects"
-              className={activeLink === "projects" ? "nav-item active-nav" : "nav-item"}
-            >
-              Projects
-            </Nav.Link>
+<Nav.Link
+  href="#projects"
+  className={`nav-item ${activeLink === "projects" ? "active-nav" : ""}`}
+>
+  Projects
+</Nav.Link>
 
-            <Nav.Link
-              href="#contact"
-              className={activeLink === "contact" ? "nav-item active-nav" : "nav-item"}
-            >
-              Contact
-            </Nav.Link>
+<Nav.Link
+  href="#contact"
+  className={`nav-item ${activeLink === "contact" ? "active-nav" : ""}`}
+>
+  Contact
+</Nav.Link>
 
           </Nav>
 

@@ -6,7 +6,12 @@ import { motion } from "framer-motion";
 const Projects = () => {
 
   const [selectedProject, setSelectedProject] = useState(projects[0]);
+  const [filter, setFilter] = useState("All");
 
+  const filteredProjects =
+    filter === "All"
+      ? projects
+      : projects.filter((project) => project.type === filter);
   return (
     <section id="projects" className="projects-section py-5">
 
@@ -65,14 +70,29 @@ const Projects = () => {
 
             </div>
 
-            <a
-              href={selectedProject.link}
-              target="_blank"
-              rel="noreferrer"
-              className="visit-link"
-            >
-              Visit Live Project →
-            </a>
+           <div className="project-links">
+
+  <a
+    href={selectedProject.link}
+    target="_blank"
+    rel="noreferrer"
+    className="visit-link"
+  >
+    Live Demo →
+  </a>
+
+  {selectedProject.github && (
+    <a
+      href={selectedProject.github}
+      target="_blank"
+      rel="noreferrer"
+      className="github-link"
+    >
+      <i className="bi bi-github"></i> GitHub
+    </a>
+  )}
+
+</div>
 
           </motion.div>
 
@@ -100,7 +120,32 @@ const Projects = () => {
 
         </div>
 
+{/* FILTER BUTTONS */}
 
+<div className="project-filters">
+
+  <button
+    className={filter === "All" ? "filter-btn active" : "filter-btn"}
+    onClick={() => setFilter("All")}
+  >
+    All
+  </button>
+
+  <button
+    className={filter === "Group Project" ? "filter-btn active" : "filter-btn"}
+    onClick={() => setFilter("Group Project")}
+  >
+    Group Projects
+  </button>
+
+  <button
+    className={filter === "Personal Project" ? "filter-btn active" : "filter-btn"}
+    onClick={() => setFilter("Personal Project")}
+  >
+    Personal Projects
+  </button>
+
+</div>
         {/* PROJECT GALLERY */}
 
         <h3 className="gallery-title mb-4">
@@ -109,7 +154,7 @@ const Projects = () => {
 
         <div className="project-scroll">
 
-          {projects.map((project)=>(
+         {filteredProjects.map((project)=>(
             
             <motion.div
               key={project.id}

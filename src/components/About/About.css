@@ -110,6 +110,10 @@ width:3px;
 height:100%;
 background:#6366f1;
 }
+.timeline-year{
+ font-size: 17px;
+ font-weight: 600;
+}
 
 .timeline-item{
 margin-bottom:30px;
@@ -128,16 +132,18 @@ border-radius:50%;
 }
 
 .timeline-card{
-background:#fff;
+background:linear-gradient(135deg,#eef2ff,#f8fafc);
 padding:25px;
 border-radius:12px;
-box-shadow:0 6px 18px rgba(0,0,0,0.06);
+box-shadow:0 6px 18px #30303161;
+width: 80%;
+margin-left: 90px;
 }
 
 /* EDUCATION CARD */
 
 .info-card{
-background:#ffffffe9;
+background:linear-gradient(135deg,#eef2ff,#f8fafc);
 padding:30px;
 border-radius:15px;
 box-shadow:0 6px 18px rgba(0,0,0,0.09);

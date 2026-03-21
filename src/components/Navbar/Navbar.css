@@ -59,7 +59,7 @@ color:#111;
 
 .nav-item{
 margin-left:20px;
-font-weight:600;
+font-weight:700;
 color:black;
 position:relative;
 transition:0.3s;
@@ -67,6 +67,7 @@ transition:0.3s;
 
 .nav-item:hover{
 color:#2563eb;
+
 }
 
 
@@ -74,5 +75,29 @@ color:#2563eb;
 
 .active-nav{
 color:#2563eb !important;
-font-weight:600;
+font-weight:700;
+}
+/* Toggle button (hamburger) background */
+.navbar-toggler {
+  background-color: #ffffff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* Optional: hamburger icon color */
+.navbar-toggler-icon {
+  filter: invert(1); /* makes icon dark/visible */
+}
+
+/* Opened mobile menu background */
+@media (max-width: 480px) {
+
+  .custom-navbar .navbar-collapse {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
 }
