@@ -2,7 +2,6 @@ import React, { useEffect, useState, useRef } from "react";
 import "./Home.css";
 import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaGithub } from "react-icons/fa";
 
-
 const Home = () => {
 
   const heroRef = useRef(null);
@@ -10,7 +9,6 @@ const Home = () => {
   const roles = [
     "Front-End Developer",
     "React Developer"
-   
   ];
 
   const [text, setText] = useState("");
@@ -36,7 +34,7 @@ const Home = () => {
         setRoleIndex((roleIndex + 1) % roles.length);
       }, 1500);
     }
-  }, [index, roleIndex]);
+  }, [index, roleIndex, roles]); // ✅ FIXED HERE
 
 
   /* Cursor Glow Effect */
@@ -160,14 +158,16 @@ const Home = () => {
           </div>
 
         </div>
+
         {/* Floating Icons */}
-<div className="floating-icons">
-  <FaReact className="float-icon react" />
-  <FaJs className="float-icon js" />
-  <FaHtml5 className="float-icon html" />
-  <FaCss3Alt className="float-icon css" />
-  <FaGithub className="float-icon github" />
-</div>
+        <div className="floating-icons">
+          <FaReact className="float-icon react" />
+          <FaJs className="float-icon js" />
+          <FaHtml5 className="float-icon html" />
+          <FaCss3Alt className="float-icon css" />
+          <FaGithub className="float-icon github" />
+        </div>
+
       </div>
     </section>
   );
