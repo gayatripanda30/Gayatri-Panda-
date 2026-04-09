@@ -36,7 +36,10 @@
   margin-top: 15px;
   color: #555;
 }
-
+.social-icons {
+  position: relative;
+  z-index: 3;
+}
 .social-icons a {
   font-size: 35px;
   color: black;
@@ -51,6 +54,8 @@
 
 .hero-content{
   animation: floatHero 6s ease-in-out infinite;
+  position: relative;
+  z-index: 2;
 }
 
 @keyframes floatHero{
@@ -64,6 +69,8 @@
 .hero-btn{
   transition: transform 0.2s ease, box-shadow 0.3s ease;
   box-shadow:0 6px 18px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 3;
 }
 
 .hero-btn:hover{
@@ -117,6 +124,8 @@
 /* cursor glow */
 
 .cursor-glow{
+   pointer-events: none;
+  z-index: 0;
   position:fixed;
   width:350px;
   height:350px;
@@ -142,7 +151,8 @@
 }
 .floating-icons {
   position: absolute;
-
+pointer-events: none;
+  z-index: 1;
   width: 100%;
   height: 100%;
   overflow: hidden;

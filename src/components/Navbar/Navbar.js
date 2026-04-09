@@ -101,7 +101,7 @@ const Header = () => {
   href="#projects"
   className={`nav-item ${activeLink === "projects" ? "active-nav" : ""}`}
 >
-  Projects
+ Projects
 </Nav.Link>
 
 <Nav.Link

@@ -57,7 +57,7 @@ const About = () => {
               <div className="timeline-card">
                 
                 <h5>Web Developer Trainee</h5>
-                <div className="timeline-year">Aug 2025 - Present</div>
+                <div className="timeline-year">Aug 2025 - Mar 2026</div>
                 <h6 className="company-name">ze TaAi Labs pvt.ltd</h6>
                 <p>
   • Built scalable and responsive UI components using React.js<br/>

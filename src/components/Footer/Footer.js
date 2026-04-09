@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="footer-bottom">
 
           <p>
-© 2026 Gayatri Panda — Crafted with ❤️ and &lt;GP/&gt;
+© 2026 Gayatri Panda — Crafted with ❤️ using clean code &lt;GP/&gt;
           </p>
 
           <div className="footer-build">

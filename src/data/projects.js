@@ -8,6 +8,33 @@ import img6 from "../assets/proj6.png";
 import img7 from "../assets/proj7.png";
 
 export const projects = [
+
+  {
+    id: 2,
+    title: "Sky Swift",
+    type: "Group Project",
+      role: "Frontend Developer",
+    category: "Travel & Booking Platform",
+    description:
+      "A travel booking platform that enables users to explore destinations, view travel services, and plan trips efficiently. The application focuses on a responsive interface and structured component-based design for a smooth user experience.",
+    image: img1,
+    tech: ["React.js", "CSS", "Node.js", "MongoDB"],
+    link: "https://swiftskywebsitefinalwebsite.vercel.app/",
+    github: "https://github.com/gayatripanda30"
+  },
+   {
+    id: 3,
+    title: "Dhabaleswar Temple",
+    type: "Group Project",
+      role: "Frontend Developer",
+    category: "Cultural Website",
+    description:
+      "An informational cultural website designed to showcase the history, traditions, and visitor information of Dhabaleswar Temple. Includes smooth animations and responsive layouts to enhance user engagement and accessibility.",
+    image: img2,
+    tech: ["React.js", "CSS", "Framer Motion"],
+    link: "https://templewebsiteee.vercel.app/",
+    github: "https://github.com/gayatripanda30"
+  },
  {
   id: 8,
   title: "Instagram Clone",
@@ -35,33 +62,9 @@ export const projects = [
     github: "https://github.com/sahureshma/Zetawebsite"
   },
 
-  {
-    id: 2,
-    title: "Sky Swift",
-    type: "Group Project",
-      role: "Frontend Developer",
-    category: "Travel & Booking Platform",
-    description:
-      "A travel booking platform that enables users to explore destinations, view travel services, and plan trips efficiently. The application focuses on a responsive interface and structured component-based design for a smooth user experience.",
-    image: img1,
-    tech: ["React.js", "CSS", "Node.js", "MongoDB"],
-    link: "https://swiftskywebsitefinalwebsite.vercel.app/",
-    github: "https://github.com/gayatripanda30"
-  },
+  
 
-  {
-    id: 3,
-    title: "Dhabaleswar Temple",
-    type: "Group Project",
-      role: "Frontend Developer",
-    category: "Cultural Website",
-    description:
-      "An informational cultural website designed to showcase the history, traditions, and visitor information of Dhabaleswar Temple. Includes smooth animations and responsive layouts to enhance user engagement and accessibility.",
-    image: img2,
-    tech: ["React.js", "CSS", "Framer Motion"],
-    link: "https://templewebsiteee.vercel.app/",
-    github: "https://github.com/gayatripanda30"
-  },
+ 
 
   {
     id: 4,
