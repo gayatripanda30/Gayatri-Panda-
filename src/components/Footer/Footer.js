@@ -61,11 +61,17 @@ const Footer = () => {
 
             <h5 className="footer-title">Connect</h5>
 
-            <div className="footer-social">
-              <a href="#"><i className="bi bi-github"></i></a>
-              <a href="#"><i className="bi bi-linkedin"></i></a>
-              <a href="#"><i className="bi bi-envelope"></i></a>
-            </div>
+           <div className="social-icons d-flex gap-5 justify-content-center mt-4">
+            <a href="https://github.com/gayatripanda30" target="_blank" rel="noreferrer">
+              <i className="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/gayatri-panda-072657248" target="_blank" rel="noreferrer">
+              <i className="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:pandagayatri413@gmail.com">
+              <i className="bi bi-envelope-fill"></i>
+            </a>
+          </div>
           </div>
 
         </div>
