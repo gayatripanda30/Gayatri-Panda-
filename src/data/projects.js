@@ -6,8 +6,22 @@ import img4 from "../assets/proj4.png";
 import img5 from "../assets/proj5.png";
 import img6 from "../assets/proj6.png";
 import img7 from "../assets/proj7.png";
+import img8 from "../assets/proj8.png";
 
 export const projects = [
+     {
+  "id": 9,
+  "title": "Tyres-E-commerce Website",
+  "type": "Personal Project",
+  "role": "Frontend Developer",
+  "category": "E-commerce Platform",
+  "description": "An interactive e-commerce platform designed for browsing, selecting, and purchasing vehicle tires. Features a responsive layout, intuitive product filtering, and a seamless checkout experience.",
+  "image": img8,
+  "tech": ["React.js", "Tailwind CSS", "HTML", "EXCEL"],
+  "link": "https://tyres-ecommerces.vercel.app/",
+  "github": "https://github.com/gayatripanda30/tyres-ecommerces"
+
+  },
 
   {
     id: 2,
@@ -61,12 +75,7 @@ export const projects = [
     link: "#",
     github: "https://github.com/sahureshma/Zetawebsite"
   },
-
-  
-
- 
-
-  {
+ {
     id: 4,
     title: "YouTube Clone",
     type: "Personal Project",

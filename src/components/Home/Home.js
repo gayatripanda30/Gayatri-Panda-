@@ -2,14 +2,14 @@ import React, { useEffect, useState, useRef } from "react";
 import "./Home.css";
 import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaGithub } from "react-icons/fa";
 
+const roles = [
+  "Front-End Developer",
+  "React Developer"
+];
+
 const Home = () => {
 
   const heroRef = useRef(null);
-
-  const roles = [
-    "Front-End Developer",
-    "React Developer"
-  ];
 
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
@@ -34,7 +34,7 @@ const Home = () => {
         setRoleIndex((roleIndex + 1) % roles.length);
       }, 1500);
     }
-  }, [index, roleIndex, roles]); // ✅ FIXED HERE
+  }, [index, roleIndex]);
 
 
   /* Cursor Glow Effect */
